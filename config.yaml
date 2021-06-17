@@ -1,0 +1,19 @@
+samples: samples.tsv
+
+# Output and log files paths
+outdir: "/home/chernandez/brainteracting_snake/results/out"
+logdir: "/home/chernandez/brainteracting_snake/results/log"
+
+parameters:
+  filter_degs:
+    filter_table: "filter_table.tsv"
+
+  map_ligand_receptor:
+    ligand_receptor_source: "files/Receptor_Ligand_List_merged.txt"
+
+  stringDB_PPI:
+    mode: "offline"
+    stringDB: "/home/chernandez/data"
+
+  filter_PPI:
+    PPI_score_threshold: 400

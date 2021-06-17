@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - r-dplyr
+  - bioconductor-biomart
+  - bioconductor-stringdb
+  - r-xml2

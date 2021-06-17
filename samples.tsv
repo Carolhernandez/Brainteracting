@@ -1,0 +1,3 @@
+sample	subsample	species	file
+endothelial	B1	mouse	files/endothelial_allvsall_up_logFC2.csv
+cancer	C1	human	files/TRAP_UP_BU_1.csv
